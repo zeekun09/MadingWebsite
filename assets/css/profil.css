@@ -1,0 +1,86 @@
+/* ================= Section Title ================= */
+.section-title {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.section-title h2 {
+    font-size: 36px;
+    color: #1f3c88;
+    font-weight: 700;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.section-title p {
+    color: #555;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/* ================= Profil Container ================= */
+.profil-container {
+    max-width: 900px;
+    margin: 40px auto 80px auto;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+/* ================= Foto Profil ================= */
+.profil-foto {
+    width: 100%;
+}
+
+.profil-foto img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 12px 28px rgba(0,0,0,0.15);
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.profil-foto img:hover {
+    transform: scale(1.02);
+}
+
+/* ================= Kotak Visi & Misi ================= */
+.profil-box {
+    background: linear-gradient(145deg, #f0f8ff, #e6f2ff); /* gradient lembut */
+    padding: 28px 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    width: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profil-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.18);
+}
+
+.profil-box h3 {
+    color: #1f3c88;
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.profil-box p,
+.profil-box ul {
+    color: #444;
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+.profil-box ul {
+    padding-left: 25px;
+}
+
+.profil-box ul li {
+    margin-bottom: 8px;
+    position: relative;
+    list-style: decimal; /* 1,2,3 dst */
+}

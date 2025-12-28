@@ -1,0 +1,65 @@
+.section-title {
+    text-align: center;
+    margin: 50px 0 25px;
+}
+
+.section-title h2 {
+    font-size: 28px;
+    color: #1f3c88; /* biru tua */
+    font-weight: 700;
+}
+
+.section-title p {
+    color: #555;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+/* Container */
+.jadwal-container {
+    max-width: 1100px;
+    margin: 0 auto 70px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 22px;
+    padding: 10px;
+}
+
+/* Card */
+.jadwal-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 25px 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    transition: 0.3s ease;
+    text-align: center;
+
+    border-top: 4px solid #f4c542; /* kuning sunflower */
+}
+
+.jadwal-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.20);
+}
+
+/* Judul kegiatan */
+.jadwal-card h3 {
+    font-size: 20px;
+    color: #1f3c88; /* biru tua */
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+
+/* Isi kegiatan */
+.jadwal-card .kegiatan {
+    font-size: 15px;
+    color: #444;
+    margin-bottom: 8px;
+}
+
+/* Waktu kegiatan */
+.jadwal-card .waktu {
+    font-size: 15px;
+    font-weight: 600;
+    color: #d4a017; /* kuning gelap agar matching */
+}
